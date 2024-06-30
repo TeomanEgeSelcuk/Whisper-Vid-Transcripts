@@ -1,0 +1,3 @@
+# Ignore directories for transcribed text and videos to be transcribed, including any files inside
+transcribed-text/*
+videos-to-be-transcribed/*

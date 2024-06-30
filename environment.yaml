@@ -1,0 +1,10 @@
+name: audio-transcription-converter
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ffmpeg
+  - numpy<2.0
+  - pip
+  - pip:
+    - git+https://github.com/openai/whisper.git
